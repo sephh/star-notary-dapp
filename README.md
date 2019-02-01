@@ -3,7 +3,9 @@
 This is Project 5,Star Notary Dapp, in this project I created a Dapp using truffle and Solidity.
 
 The ERC-721 Token Name is Star Notary.
+
 The ERC-721 Token Symbol is STAR.
+
 The “Token Address” on the Rinkeby is 0xc5b97EEa9FE2f6daA28Cf1C2fe4092653EEAAb11.
 
 ## Setup project for Review.

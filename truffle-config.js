@@ -66,7 +66,7 @@ module.exports = {
     // NB: It's important to wrap the provider as a function.
     rinkeby: {
       provider: () => new HDWallet(
-          'seed', // the seed are removed because is a personal information
+          'maximum index system liberty refuse loop before guess shaft blue old unable',
           'https://rinkeby.infura.io/v3/cc0b58e328ac49e99430297d5a3d3a70',
       ),
       network_id: 4,       // rinkeby's id

@@ -64,15 +64,15 @@ module.exports = {
 
     // Useful for deploying to a public network.
     // NB: It's important to wrap the provider as a function.
-    // rinkeby: {
-    //   provider: () => new HDWallet(
-    //       'seed',
-    //       'infura address',
-    //   ),
-    //   network_id: 4,       // rinkeby's id
-    //   gas: 4500000,        // rinkeby has a lower block limit than mainnet
-    //   gasPrice: 10000000000,
-    // },
+    rinkeby: {
+      provider: () => new HDWallet(
+          'seed', // the seed are removed because is a personal information
+          'https://rinkeby.infura.io/v3/cc0b58e328ac49e99430297d5a3d3a70',
+      ),
+      network_id: 4,       // rinkeby's id
+      gas: 4500000,        // rinkeby has a lower block limit than mainnet
+      gasPrice: 10000000000,
+    },
 
     // Useful for private networks
     // private: {
